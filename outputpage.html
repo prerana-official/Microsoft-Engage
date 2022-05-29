@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+            .bodyedit{
+            background-image: linear-gradient(to right,blue , black);
+            }
+            .h1{
+                font-size: 30px;
+                font-family:'Times New Roman', Times, serif;
+                color:black;
+                align-self: center;
+                margin: 50px;
+            }
+            .heading{
+                font-size: 30px;
+                font-family:'Times New Roman', Times, serif;
+                color:white;
+                align-self: center;
+                margin: 50px;
+            }
+            .h3{
+                font-size: 20px;
+                font-family:monospace;
+                color: black;
+                align-self: center;
+                margin: 50px;
+            }
+        </style>
+    </head>
+    <body class="bodyedit">
+        <h1 class="heading"><center>Prediction Result</center></h1>
+        <div style="background-color:#fff; width:1000px; height:500px;border-radius: 25px;align-self: center;padding: 30px; margin-top: 50px; margin-left: 230px;">
+        <h1 class="h3">The prediction of the motor vehicle sales for the year {{year}} is <u>{{result}}</u> million units.</h1>
+        <h3 class="h3">{{ dataf.to_html(classes="table table-striped") | safe}}</h3>
+        <h4><b>By looking at the attributes above, the automotive industry owners can </br>plan on the expansion of the production units in order to meet the future needs.</br> The above data has been predicted using official annual reports of Society of Indian Automobile Manufacturers(SIAM).</b></h4>
+    </div>
+    </body>
+</html>
