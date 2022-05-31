@@ -16,15 +16,16 @@ official resources like SIAM (Society of Indian Automobile Manufacturers) and th
 I am planning to enhance this project by including company wise competitive analysis.
 
 For running the web application, follow the following steps:
-> Create a folder and save all .py files along with the "carsales" dataset that has been provided by me in the repo.
-> Inside this folder create another folder named as "templates" and save all html files in it.
-> Now run the "app.py" file in terminal.
-> An url gets generated in the terminal. Copy it and paste it in the searchbar of any browser.
-> Run it and the  web application is displayed.
+1. Create a folder and save all .py files along with the "carsales" dataset that has been provided by me in the repo.
+2. Inside this folder create another folder named as "templates" and save all html files in it.
+3. Now run the "app.py" file in terminal.
+4. An url gets generated in the terminal. Copy it and paste it in the searchbar of any browser.
+5. Run it and the  web application is displayed.
 
 The web app is static. It would give display issues with any device other than the one having resolution 1920 x 1080 x 59 
 
 References:
 https://www.siam.in/cpage.aspx?mpgid=42&pgidtrail=89
+
 https://data.worldbank.org/country/IN
  
